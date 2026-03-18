@@ -74,19 +74,19 @@ npm run preview
 ```
 src/
 ├── components/
-│   └── Layout.jsx          # Main layout with navigation
+│   └── Layout.tsx          # Main layout with navigation
 ├── context/
-│   └── AssessmentContext.jsx # Global state management
+│   └── AssessmentContext.tsx # Global state management
 ├── pages/
-│   ├── Home.jsx           # Landing page
-│   ├── Assessment.jsx      # Assessment wizard
-│   ├── AssessmentResult.jsx # Results dashboard
-│   ├── UseCaseGenerator.jsx # Use case generator
-│   ├── ROISimulator.jsx   # ROI calculator
-│   ├── Playbooks.jsx      # Implementation playbooks
-│   └── Dashboard.jsx      # User dashboard
-├── App.jsx                # Router configuration
-├── main.jsx               # Entry point
+│   ├── Home.tsx           # Landing page
+│   ├── Assessment.tsx      # Assessment wizard
+│   ├── AssessmentResult.tsx # Results dashboard
+│   ├── UseCaseGenerator.tsx # Use case generator
+│   ├── ROISimulator.tsx   # ROI calculator
+│   ├── Playbooks.tsx      # Implementation playbooks
+│   └── Dashboard.tsx      # User dashboard
+├── App.tsx                # Router configuration
+├── main.tsx               # Entry point
 └── index.css              # Global styles
 ```
 
