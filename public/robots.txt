@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://readyai.com/sitemap.xml

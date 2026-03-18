@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-navy: #0F1B2D;
+  --color-amber: #F59E0B;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #F8FAFC;
+  color: #1a1a2e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, var(--color-navy) 0%, #1a2d4a 100%);
+}
+
+.btn-primary {
+  @apply bg-amber-500 hover:bg-amber-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl;
+}
+
+.btn-secondary {
+  @apply bg-navy-800 hover:bg-navy-900 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200;
+}
+
+.card {
+  @apply bg-white rounded-2xl shadow-sm border border-gray-100 p-6;
+}
+
+.input-field {
+  @apply w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-amber-500 focus:ring-2 focus:ring-amber-200 transition-all duration-200 outline-none;
+}
+
+.chip {
+  @apply px-4 py-2 rounded-full text-sm font-medium cursor-pointer transition-all duration-200;
+}
+
+.chip-selected {
+  @apply bg-amber-500 text-white;
+}
+
+.chip-unselected {
+  @apply bg-gray-100 text-gray-600 hover:bg-gray-200;
+}
